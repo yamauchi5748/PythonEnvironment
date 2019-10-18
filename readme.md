@@ -26,6 +26,16 @@ Python
 └ down.bat
 ```
 
+## 初期パッケージ
+
+- numpy
+- pandas
+- matplotlib
+- networkx
+- pyyaml
+- xlsxwriter
+- tornado
+
 ## Dockerのインストール
 
 Dockerをインストールしていなければ下記のurlからダウンロードし、インストールする
