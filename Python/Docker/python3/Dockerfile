@@ -13,11 +13,3 @@ ENV TERM xterm
 RUN apt-get install -y vim less
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
-
-RUN python -m pip install numpy
-RUN python -m pip install pandas
-RUN python -m pip install matplotlib
-RUN python -m pip install networkx
-RUN python -m pip install pyyaml
-RUN python -m pip install xlsxwriter
-RUN python -m pip install tornado
